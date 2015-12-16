@@ -1,7 +1,5 @@
 # camunda engine unit test template
 
-This git repository contains a simple example of how to write a unit test for camunda bpm. You can use it for reporting bugs or asking questions in the forums.
-
 The project contains the following files:
 
 ```
@@ -26,6 +24,8 @@ Explanation:
 * (2) Configuration file for the process engine.
 * (3) An example BPMN process.
 
+https://github.com/camunda/camunda-bpm-assert/blob/master/camunda-bpm-assert/README.md
+
 ## Running the test with maven
 
 In order to run the testsuite with maven you can say:
@@ -33,9 +33,5 @@ In order to run the testsuite with maven you can say:
 ```
 mvn clean test
 ```
-
-## Importing the project into eclipse.
-
-If you use eclipse you can simply import the project by selecting `File / Import |-> Existing Maven Projects.
 
 [assert]: https://github.com/camunda/camunda-bpm-assert
